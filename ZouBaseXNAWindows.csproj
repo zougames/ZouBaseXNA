@@ -54,7 +54,16 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Input\ControllerHandler.cs" />
+    <Compile Include="Input\Direction.cs" />
+    <Compile Include="Input\InputHandler.cs" />
+    <Compile Include="Input\InputHandlerEventArgs.cs" />
+    <Compile Include="Input\InputHandlerPlayer1.cs" />
+    <Compile Include="Input\InputHandlerPlayer2.cs" />
+    <Compile Include="Input\InputListener.cs" />
+    <Compile Include="Input\InputMoveHandler.cs" />
+    <Compile Include="Input\Move.cs" />
+    <Compile Include="Input\MoveList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
