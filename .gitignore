@@ -1,6 +1,15 @@
+.DS_Store
+Thumbs.db
 
-/obj
-/bin
-/Content/obj
-/Content/bin
+*~
+*.swp
+_ReSharper*
+*cache*
+*.testrunconfig
+*.vsmdi
 *.user
+
+/obj/*
+/bin/*
+/Content/obj/*
+/Content/bin/*
